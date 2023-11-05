@@ -1,0 +1,8 @@
+---
+# Hardens an Ubuntu Server
+- hosts: localhost
+  vars_files:
+    - vars/defaults.yml
+  tasks:
+    - include_role:
+        name: harden-ubuntu

@@ -1,0 +1,4 @@
+---
+os_user: ansible-runner
+os_group: ansible-runners
+basedir: /opt/ansible
